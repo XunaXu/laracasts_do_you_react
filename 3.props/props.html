@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>3.props</title>
+    </head>
+    <body>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/react/0.13.1/react.min.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/react/0.13.1/JSXTransformer.js"></script>
+        <script type="text/jsx">
+			var Avatar = React.createClass({
+
+				getDefaultProps: function(){
+					return {
+						path: "./fh04.png"
+					}
+				},
+
+				render: function () {
+					return (
+						<div>
+							<a href={this.props.path}>
+							<img src = {this.props.path} />	
+							</a>	
+						</div>
+					);
+				}
+			});
+
+			React.render(<Avatar/>, document.body);
+        </script>
+    </body>
+</html>

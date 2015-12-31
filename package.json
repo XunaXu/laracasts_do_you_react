@@ -1,0 +1,20 @@
+{
+  "name": "React-Laracasts",
+  "version": "0.0.1",
+  "description": "My version of the source code for Laracasts: Do you react? by JeffreyWay broadcasted in April 2015",
+  "keywords": [
+    "React","Laracasts", "Front-End", "Javascript", "Do you react?"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xunaxu/notgit"
+  },
+  "scripts": {
+    "start": "http-server -a localhost -p 8080"
+  },
+  "devDependencies": {
+    "http-server": "^0.8.5"
+  },
+  "dependencies": {},
+  "license": "CC0-1.0"
+}
